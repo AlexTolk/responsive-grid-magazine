@@ -107,7 +107,7 @@ h1 {
 
 /* variant five */
 
-.article:nth-child(1) {
+/* .article:nth-child(1) {
   grid-column: 1 / -1;
   background-color: aqua;
 }
@@ -117,6 +117,51 @@ h1 {
 }
 .article:nth-child(3n + 2) {
   grid-column: 1 / -3;
+  background-color:crimson;
+} */
+
+/* variant five */
+
+/* .article:nth-child(1) {
+  grid-column: 1 / -1;
+  background-color: aqua;
+}
+.article:nth-child(2n + 2) {
+  grid-column: -3 / -1;
+  background-color:coral;
+}
+.article:nth-child(3n + 2) {
+  grid-column: 1 / -3;
+  background-color:crimson;
+} */
+
+/* variant six */
+
+/* .article:nth-child(1) {
+  grid-column: 1 / -3;
+  background-color: aqua;
+}
+.article:nth-child(2n + 2) {
+  grid-column: -3 / -1;
+  background-color:coral;
+}
+.article:nth-child(3n + 2) {
+  grid-column: 1 / -3;
+  background-color:crimson;
+} */
+
+/* variant seven */
+
+.article:nth-child(1) {
+  grid-column: 2 / -2;
+  background-color: aqua;
+}
+.article:nth-child(2n + 2) {
+  grid-column: 3 / -2;
+  background-color:coral;
+}
+.article:nth-child(3n + 2) {
+  grid-column: 1 / 3;
   background-color:crimson;
 }
 
